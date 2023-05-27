@@ -44,13 +44,4 @@ class Facultad:
 
     def getcarreras(self):
         return self.__Carrera
-
-    # def buscarcarrera(self,nomcar):
-    #     i = 0
-    #     while i < len(self.__Carrera):
-    #         if nomcar == self.__Carrera[i].getnombre():
-    #             cod = self.__Carrera[i].getcodigo()
-    #             i = len(self.__Carrera)
-    #             return cod
-    #         else: i+=1
-        
+    
